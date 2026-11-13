@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mymedi-ai": {
+      "type": "http",
+      "url": "https://mymedi-ai.com/mcp-stream"
+    }
+  }
+}

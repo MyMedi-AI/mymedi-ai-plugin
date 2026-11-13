@@ -1,0 +1,16 @@
+{
+  "name": "mymedi-ai",
+  "displayName": "MyMedi-AI",
+  "version": "1.0.0",
+  "description": "DME billing checks in a conversation: scrub a claim before it goes out, work a denial to a fix or an appeal, check an order's paperwork before delivery, estimate the Medicare allowable, and map a product catalog against the CMS prior-authorization lists. Built on public CMS data and PHI-free.",
+  "author": { "name": "MyMedi-AI", "url": "https://mymedi-ai.com" },
+  "icon": "./assets/icon.png",
+  "homepage": "https://mymedi-ai.com",
+  "repository": "https://github.com/MyMedi-AI/mymedi-ai-plugin",
+  "documentationUrl": "https://github.com/MyMedi-AI/mymedi-ai-plugin#readme",
+  "supportUrl": "https://mymedi-ai.com/support",
+  "privacyPolicyUrl": "https://mymedi-ai.com/privacy",
+  "termsOfServiceUrl": "https://mymedi-ai.com/terms",
+  "license": "MIT",
+  "keywords": ["dme", "medical billing", "medicare", "prior authorization", "hcpcs", "claim denials", "dmepos"]
+}
