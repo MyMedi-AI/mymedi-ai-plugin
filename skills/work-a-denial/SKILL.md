@@ -37,8 +37,11 @@ Match the causes against what the user knows about the claim, then recommend one
 
 - **Patient or secondary payer:** a PR-group adjustment such as a deductible or coinsurance is not a
   denial to appeal; bill the patient or the secondary payer.
-- **Correct and resubmit:** missing or wrong information, a code or modifier error. Use the fixes the tool
-  returns.
+- **Correct the claim:** missing or wrong information, a code or modifier error. Use the fixes the tool
+  returns. For Original Medicare, how depends on the remittance: a claim returned as unprocessable (remark
+  code MA130) is corrected and sent as a new claim; a processed claim with a clerical error, such as a
+  wrong code, modifier, date or place of service, is corrected through a reopening request to the DME MAC.
+  Sending that claim again as a new claim gets it denied as a duplicate.
 - **Appeal:** the tool says the denial is appealable and the documentation meets the requirement. When a
   required document is missing, say an appeal is unlikely to succeed until it is obtained.
 

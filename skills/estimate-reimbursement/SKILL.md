@@ -44,7 +44,10 @@ rental, new purchase or used purchase only.
 - The monthly rental (RR) against the purchase price, new (NU) or used (UE).
 - Non-rural against rural: the rural rate applies when the beneficiary lives in a rural area.
 - Capped rental: when the item is rented, call `modifier_advisor` (free) with the code for the
-  capped-rental month modifiers (KH, KI, KJ) and how the rental period runs.
+  capped-rental month modifiers (KH, KI, KJ) and how the rental period runs. The RR amount is the rate for
+  rental months 1 to 3; from month 4 Medicare pays 75% of it (42 CFR 414.229(b)(2)). A total over the
+  13 months is three months at the RR amount plus ten at 75% of it, never the RR amount times 13. Power
+  wheelchairs follow a different split (414.229(b)(3)): give their monthly rate without totaling it.
 - Competitive bidding: once the round's contracts start, the single payment amount replaces the fee
   schedule amount for the item.
 

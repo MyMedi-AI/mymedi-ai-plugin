@@ -1,7 +1,7 @@
 {
   "name": "mymedi-ai",
   "displayName": "MyMedi-AI",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DME billing checks in a conversation: scrub a claim before it goes out, work a denial to a fix or an appeal, check an order's paperwork before delivery, estimate the Medicare allowable, and map a product catalog against the CMS prior-authorization lists. Built on public CMS data and PHI-free.",
   "author": { "name": "MyMedi-AI", "url": "https://mymedi-ai.com" },
   "icon": "./assets/icon.png",
